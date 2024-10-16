@@ -15,13 +15,13 @@ apriltag 0.0.16: pip install apriltag
 **Before First Use**
 
 1. Ensure focal length is calculated for your camera
-2. change device_number to your camera 
-3. Measure width of your apriltag in inches and set variable KNOWN_TAG_WIDTH to that value
+2. change self.device_number to your camera 
+3. Measure width of your apriltag in inches and set variable self.KNOWN_TAG_WIDTH to that value
 
 --------------------------------------------------------------------------------------------
 **Running for the first time**
 
-cd ROS2_Apriltag_Tracking
+cd ROS2-Apriltag-Tracker
 
 colcon build
 
